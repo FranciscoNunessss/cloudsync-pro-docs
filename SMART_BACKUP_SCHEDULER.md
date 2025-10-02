@@ -34,25 +34,39 @@ O **Smart Backup Scheduler** automatiza backups em horários de baixa atividade.
   "retention_days": 30,
   "file_change_threshold": 0.1
 }
-## 5. API
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| /api/v2/schedules | GET | List all backup schedules |
-| /api/v2/schedules | POST | Create new schedule |
-| /api/v2/schedules/{id}/status | GET | Check schedule status |
+```
+## 5. API Integration
+
+| Endpoint                    | Method | Description              |
+|-----------------------------|--------|--------------------------|
+| /api/v2/schedules           | GET    | List all backup schedules |
+| /api/v2/schedules           | POST   | Create new schedule       |
+| /api/v2/schedules/{id}/status | GET  | Check schedule status     |
+
+---
 
 ## 6. Troubleshooting
-- Backup não inicia → verificar permissões de admin  
-- Horário incorreto → ajustar fuso horário  
-- Não recebo alertas → confirmar notificações ativas
+
+- **Backup não inicia** → verificar permissões de admin  
+- **Horário incorreto** → ajustar fuso horário  
+- **Não recebo alertas** → confirmar notificações ativas  
+
+> 💡 **Nota:** Se os problemas persistirem, contacte o suporte CloudSync Pro.
+
+---
 
 ## 7. Support and Resources
-CloudSync Pro support portal
-Informações de contato para dúvidas técnicas
-Processo de solicitação de recursos
+
+- [CloudSync Pro Support Portal](#)  
+- Informações de contato para dúvidas técnicas  
+- Processo de solicitação de recursos  
+
+---
 
 ## 8. Roadmap
+
 - [x] Documentação base criada  
 - [x] Exemplo de configuração incluído  
 - [ ] Expandir endpoints da API  
-- [ ] Criar vídeos de onboarding 7
+- [ ] Criar guia visual passo a passo  
+
