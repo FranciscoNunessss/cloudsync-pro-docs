@@ -24,6 +24,7 @@ O **Smart Backup Scheduler** automatiza backups em horários de baixa atividade.
 3. Testar configuração  
 4. Ativar alertas  
 
+
 ## 4. Config Example
 ```json
 {
