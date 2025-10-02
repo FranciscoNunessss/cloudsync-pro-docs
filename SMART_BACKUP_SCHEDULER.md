@@ -57,7 +57,7 @@ O **Smart Backup Scheduler** automatiza backups em horários de baixa atividade.
 
 ## 7. Support and Resources
 
-- [CloudSync Pro Support Portal](#)  
+- CloudSync Pro Support Portal  
 - Informações de contato para dúvidas técnicas  
 - Processo de solicitação de recursos  
 
